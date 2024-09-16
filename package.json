@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "pdfjs-dist": "^4.6.82"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-methods": "^7.25.4"
+  }
+}
