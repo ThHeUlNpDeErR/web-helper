@@ -36,6 +36,7 @@ name:'emailVerification',
         if (this.email && this.code) {
           // 假设验证成功
           this.message = 'Verification successful!';
+          this.$emit('verified'); // 在验证成功后触发事件
         } else {
           this.message = 'Verification failed. Please check your email and code.';
         }
